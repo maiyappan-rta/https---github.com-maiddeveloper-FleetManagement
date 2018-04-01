@@ -1,0 +1,7 @@
+  CREATE TABLE 'fleetmanagement'.'vehiclelist' (
+  id int(11) NOT NULL,
+  vehicle_number VARCHAR(45) ,
+  latitude  VARCHAR(45),
+  langtitude VARCHAR(45),
+  area VARCHAR(45),
+  PRIMARY KEY ('vehicle_number'));
