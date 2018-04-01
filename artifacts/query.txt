@@ -1,0 +1,14 @@
+  CREATE TABLE 'fleetmanagement'.'vehiclelist' (
+  id int(11) NOT NULL,
+  vehicle_number VARCHAR(45) ,
+  latitude  VARCHAR(45),
+  langtitude VARCHAR(45),
+  area VARCHAR(45),
+  PRIMARY KEY ('vehicle_number'));
+  
+  insert into fleetmanagement.vehiclelist values(1,'K Dubai 00001','25.024573','55.160327','Discovery Gardens');
+insert into fleetmanagement.vehiclelist values(2,'K Dubai 00002','25.194971','55.295548','Al Nadha 1');
+insert into fleetmanagement.vehiclelist values(3,'K Dubai 00003','25.241305','55.369614','Al Nadha 2');
+
+commit;
+
